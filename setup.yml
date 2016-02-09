@@ -1,0 +1,9 @@
+---
+- hosts: jenkins-master
+  gather_facts: yes
+
+- roles:
+    - common
+    - jenkins-master
+
+

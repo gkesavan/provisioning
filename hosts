@@ -1,0 +1,8 @@
+[defaults]
+host_key_checking=False
+
+[jenkins-master]
+10.9.200.61
+
+[jenkins-master:vars]
+ansible_user = robin
